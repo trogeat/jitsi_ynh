@@ -189,7 +189,7 @@ if [ ${PACKAGE_CHECK_EXEC:-0} -eq 1 ]; then
 fi
 
 # Create focus user
-yunohost user create $focus_user -f $focus_user -l $focus_user -m ${focus_user}@auth.$domain -p $focus_password -q 0
+#yunohost user create $focus_user -f $focus_user -l $focus_user -m ${focus_user}@auth.$domain -p $focus_password -q 0
 
 # Add Metronome domain conf template
 metronome_conf="/usr/share/yunohost/templates/jitsi/$domain.cfg.lua"
